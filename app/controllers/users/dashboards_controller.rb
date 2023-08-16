@@ -1,2 +1,2 @@
-class Users::DashboardsController < ApplicationController
+class Users::DashboardsController < Users::BaseController
 end
