@@ -46,6 +46,7 @@ group :development do
     gem 'pry-byebug'
   gem 'rspec-rails', '~> 4.0.0.beta2' # required for rails 6 compatibility
   gem 'rails-controller-testing'      # rspec 4 requirement
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
 end
 
 group :test do
